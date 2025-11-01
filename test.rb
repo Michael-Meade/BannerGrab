@@ -1,5 +1,5 @@
-require_relative "lib/bannergrab"
-
+#require_relative "lib/bannergrab"
+require 'bannergrab'
 bg = Bannergrab::TCP.new("bleepingcomputer.com", "443")
 puts "VIEW HEADERS: "
 bg.view_headers
